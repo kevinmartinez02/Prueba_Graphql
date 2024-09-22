@@ -7,5 +7,11 @@ const typeDefs = gql`
         age: Int!
         country : String!
     }
+    type Query{
+        allUsers: [User]
+    }
+    type Mutation{
+        createUser(name:String,last_name:String,age:Int,country:String): User
+    }
 `
 export default typeDefs;
