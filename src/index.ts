@@ -1,5 +1,5 @@
 import { ApolloError,ApolloServer,gql } from "apollo-server";
-import schema from "./graphql/schema";
+import schema from "./Graphql/schema";
 
 const server = new ApolloServer({schema})
 server.listen().then(({url})=>{
