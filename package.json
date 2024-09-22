@@ -11,10 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.5",
+    "prisma": "^5.19.1",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
     "@graphql-tools/schema": "^10.0.6",
+    "@prisma/client": "^5.19.1",
     "apollo-server": "^3.13.0",
     "graphql": "^16.9.0"
   }
