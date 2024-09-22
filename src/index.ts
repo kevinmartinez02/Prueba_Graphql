@@ -1,8 +1,7 @@
 import { ApolloError,ApolloServer,gql } from "apollo-server";
-const typeDefs = gql``;
-const resolvers = {};
-const server = new ApolloServer({typeDefs,resolvers});
+import schema from "./graphql/schema";
 
+const server = new ApolloServer({schema})
 server.listen().then(({url})=>{
     console.log(`server is running in ${url}`);
 })
