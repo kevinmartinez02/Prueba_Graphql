@@ -16,6 +16,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
 3. Abrir una terminal en esa carpeta e ingresar el siguiente comando:
    ```bash
    git clone https://github.com/kevinmartinez02/Prueba_Graphql.git
+   ```
    
 
 ## Crear y ejecutar el Contenedor Docker
@@ -23,12 +24,15 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
 1. Ingresar a la carpeta raíz `/Servidor`:
    ```bash
    cd Servidor
+   ```
 2. Ejecutar el Comando :
    ```bash
    docker-compose up --build
+   ```
 3. Verificar que el contenedor esté en ejecución:
    ```bash
    docker ps
+   ```
 
 
 
@@ -56,7 +60,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
                 country
             }
         }
-
+    ```
 2. buscar un usuario
     ```bash
         query{
@@ -68,6 +72,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
                 country
             }
         }
+    ```
 
 
 3. Crear un usuario: retorna los campos de la informacion del nuevo Usuario
@@ -81,6 +86,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
                 age,
             }
         }
+      ```
  4.  actualizar un usuario: retorna los campos del usuario editado con la nueva informacion
       ```bash
         mutation{
@@ -89,7 +95,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
                 country
             }
         }
-
+      ```
 5.  Eliminar un usuario : retorna los campos del usuario de eliminado
      ```bash
         mutation{
@@ -97,8 +103,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
                 name
             }
         }
-
-
+     ```
 ## Tecnologías utilizadas
 - **Node.js**: Entorno de ejecución para JavaScript.
 - **TypeScript**: Superconjunto de JavaScript que añade tipos estáticos.
