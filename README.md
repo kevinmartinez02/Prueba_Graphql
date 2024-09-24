@@ -49,7 +49,6 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
 ## Consultas y Mutaciones
 
 1.Obtener todos los usuarios
-    
     ```bash
         query{
             allUsers{
@@ -75,7 +74,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
     ```
 
 
-3. Crear un usuario: retorna los campos de la informacion del nuevo Usuario
+4. Crear un usuario: retorna los campos de la informacion del nuevo Usuario
 
       ```bash
         mutation{
@@ -87,7 +86,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
             }
         }
       ```
- 4.  actualizar un usuario: retorna los campos del usuario editado con la nueva informacion
+ 5.  actualizar un usuario: retorna los campos del usuario editado con la nueva informacion
       ```bash
         mutation{
             updateUser(id:2,name:"Juan",last_name:"Ramirez",age:15,country:"Guatemala"){
@@ -96,7 +95,7 @@ La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita 
             }
         }
       ```
-5.  Eliminar un usuario : retorna los campos del usuario de eliminado
+6.  Eliminar un usuario : retorna los campos del usuario de eliminado
      ```bash
         mutation{
             deleteUser(id:1){
