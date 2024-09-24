@@ -1,7 +1,7 @@
 
 
   # API SIMPLE CON GRAPHQL Y APOLLO-SERVER
-Este proyecto es una API sencilla que permite crear, leer, actualizar y eliminar información de usuarios (operaciones CRUD). Está construida usando Node.js y TypeScript. Utiliza Express y GraphQL para manejar las solicitudes y respuestas de datos. Para gestionar las consultas y cambios en los datos, emplea Apollo Server.
+Este proyecto es una API sencilla que permite crear, leer, actualizar y eliminar información de usuarios (operaciones CRUD). Está construida usando Node.js y TypeScript. GraphQL para manejar las solicitudes y respuestas de datos. Para gestionar las consultas y cambios en los datos, emplea Apollo Server.
 
 La API se conecta a una base de datos SQLite utilizando Prisma, lo que facilita el trabajo con la base de datos. Además, el proyecto está preparado para ejecutarse dentro de Docker, lo que hace que sea fácil de instalar y ejecutar en diferentes computadoras o servidores.
 
